@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'acme';
+    src: url(font/acme.ttf);
+}
+
+@font-face {
+    font-family: 'JFS';
+    src: url(font/JFS.ttf);
+}
+
+@font-face {
+    font-family: 'butch';
+    src: url(font/Butcherman-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url(images/hallow.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'JFS';
+    font-size: x-large;
+    font-weight: 600;
+}
+
+header {
+    background-image: url(images/hehe.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 1px 0;
+    text-align: center;
+    color: white;
+    font-family: 'acme';
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: normal;
+}
+
+#soekarno {
+    font-style: normal;
+    
+}
+
+
+
+.gambar {
+    text-align: center;
+}
+
+.sale {
+    font-family: 'butch';
+    font-size: 70px;
+    margin-top: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+}
+
+.ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: goldenrod;
+    transition: 0.2s;
+}
+
+.ul li a:hover {
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#link {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+#link li {
+    margin-right: 30px;
+}
+
+#link li a {
+    text-decoration: none;
+    color: rgb(207, 80, 6);
+}
+
+#link li a:hover {
+    color: goldenrod;
+}
+
+.wa {
+    color: aqua;
+    text-decoration: none;
+}
+
+.wa:hover {
+    color: chartreuse;
+}
+
+.sp1 {
+    color: goldenrod; 
+    font-size: 50px
+}
